@@ -1,3 +1,5 @@
+'use client'
+
 import { GridPattern } from '@/components/GridPattern'
 
 export function Footer() {
@@ -8,6 +10,8 @@ export function Footer() {
       </div>
       <a
         href="https://github.com/peerrich/ossacc"
+        target="_blank"
+        rel="noopener noreferrer"
         className="relative text-center text-sm text-slate-600"
       >
         <p>
